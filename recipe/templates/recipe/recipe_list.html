@@ -1,16 +1,6 @@
-<html lang="ja">
-
-<head>
-    <meta charset="UTF-8">
-    <title>Recioe Post</title>
-</head>
-
-<body>
-    <h1>recipe_list.html</h1>
-    {% for recipe in recipe_list %}
-    {{ recipe }}
-    {{ recipe.content }}
-    {% endfor %}
-</body>
-
-</html>
+{% extends 'base.html' %}
+{% comment %}
+{% block body %}
+<h1>recipe_list.html</h1>
+{% endblock %}
+{% endcomment %}
