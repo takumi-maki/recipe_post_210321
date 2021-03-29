@@ -1,6 +1,18 @@
 {% extends 'base.html' %}
-{% comment %}
+{% load static %}
 {% block body %}
 <h1>recipe_list.html</h1>
+{%　for recipe in recipe_list %}
+<div class="media">
+    <img src="{% static 'images/02.jpg' %}" class="align-self-center mr-3" alt="..." width="120">
+    <div class="media-body">
+        <h5 class="mt-0">{{recipe.title }}</h5>
+        <p>{{ recipe.content }}</p>
+        <p>{{ recipe.description }}</p>
+    </div>
+</div>
+{% if not forloop.last %}
+<hr>
+{% endif %}
+{% endfor %}
 {% endblock %}
-{% endcomment %}
