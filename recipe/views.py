@@ -9,3 +9,4 @@ class RecipeListView(ListView):
 class RecipeCreateView(CreateView):
     model = Recipe
     fields = ['title', 'content', 'description']
+    success_url = '/'
