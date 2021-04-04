@@ -52,7 +52,17 @@
 
     <!-- Page Content -->
     <div class="container">
-        {% block body %} {% endblock %}
+        {% if messages %}
+        {% for message in messages %}
+        <div{% if message.tags %} class="my-3 alert alert-{% if message.tags == 'error' %}danger{% else %}{{ message.tags
+            }}{% endif %} alert alert-success alert-dismissible fade show" {% endif %} role='alert'>{{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="閉じる">
+                <span aria-hidden="true">&times;</span>
+            </button>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% block body %} {% endblock %}
     </div>
     <!-- /.container -->
 
@@ -66,7 +76,7 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
-    <script src="{% static 'vendor/bootstrap/js/bootstap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 
 </body>
 

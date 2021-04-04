@@ -6,7 +6,9 @@
 <div class="media">
     <img src="{% static 'images/02.jpg' %}" class="align-self-center mr-3" alt="..." width="120">
     <div class="media-body">
-        <h5 class="mt-0">{{recipe.title }}</h5>
+        <a href="{% url 'recipe:detail' recipe.id %}">
+            <h5 class="mt-0">{{recipe.title }}</h5>
+        </a>
         <p>{{ recipe.content }}</p>
         <p>{{ recipe.description }}</p>
     </div>

@@ -8,7 +8,7 @@ class Recipe(models.Model):
     content = models.TextField(verbose_name="内容")
     description = models.TextField(blank=True, default="")
     created = models.DateTimeField(auto_now_add=True)
-    modfied = models.DateTimeField(auto_now=True)
+    modified = models.DateTimeField(auto_now=True)
 
     class Meta:
         verbose_name = "レシピ"
