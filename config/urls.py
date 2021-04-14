@@ -23,5 +23,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('recipe/', include("recipe.urls", namespace="recipe")),
     path('comment/', include("comment.urls", namespace="comment")),
+    path('staffroom/', include("staffroom.urls", namespace="staffroom")),
     path('', IndexTemplateView.as_view(), name='index'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
