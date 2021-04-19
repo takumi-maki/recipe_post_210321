@@ -1,0 +1,119 @@
+[
+    {
+        "model": "recipe.recipe",
+        "pk": 2,
+        "fields": {
+            "title": "チャーハン",
+            "content": "卵に絡めたご飯を炒める。",
+            "description": "高菜と一緒に炒めると美味しい",
+            "image": "",
+            "user": 1,
+            "created": "2021-03-29T13:40:03.233Z",
+            "modified": "2021-04-14T14:11:00.924Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 3,
+        "fields": {
+            "title": "親子丼",
+            "content": "鶏肉と卵を煮てご飯の上に乗せる。",
+            "description": "仕上げに刻み海苔を散らしましょう",
+            "image": "images/uploaded/親子丼.jpeg",
+            "user": 1,
+            "created": "2021-03-29T13:41:09.561Z",
+            "modified": "2021-04-14T13:29:58.672Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 4,
+        "fields": {
+            "title": "卵焼き",
+            "content": "といた卵を焼いて巻く",
+            "description": "中火で焼いてフワフワにするのがコツ。",
+            "image": "",
+            "user": 1,
+            "created": "2021-04-02T13:58:03.254Z",
+            "modified": "2021-04-14T13:29:50.605Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 6,
+        "fields": {
+            "title": "目玉焼き",
+            "content": "卵を焼く",
+            "description": "醤油をかけると美味しい",
+            "image": "",
+            "user": 1,
+            "created": "2021-04-04T07:10:02.089Z",
+            "modified": "2021-04-14T13:29:44.601Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 7,
+        "fields": {
+            "title": "卵スープ",
+            "content": "といた卵をスープの中にいれる",
+            "description": "ネギを散らすと出来上がり",
+            "image": "",
+            "user": 1,
+            "created": "2021-04-04T10:37:29.085Z",
+            "modified": "2021-04-14T13:29:39.990Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 8,
+        "fields": {
+            "title": "卵スープ",
+            "content": "卵をスープの中にいれる",
+            "description": "ネギを少しいれる",
+            "image": "images/uploaded/03.jpg",
+            "user": 1,
+            "created": "2021-04-04T10:41:46.489Z",
+            "modified": "2021-04-14T13:29:35.277Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 9,
+        "fields": {
+            "title": "カルボナーラ",
+            "content": "卵黄とミルクをパスタとあえる",
+            "description": "粉チーズをミックス",
+            "image": "images/uploaded/カルホナーラ.jpeg",
+            "user": 1,
+            "created": "2021-04-11T12:46:32.621Z",
+            "modified": "2021-04-14T13:29:17.319Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 10,
+        "fields": {
+            "title": "すき焼き",
+            "content": "牛肉を煮る",
+            "description": "",
+            "image": "",
+            "user": null,
+            "created": "2021-04-14T15:05:27.229Z",
+            "modified": "2021-04-14T15:05:27.229Z"
+        }
+    },
+    {
+        "model": "recipe.recipe",
+        "pk": 11,
+        "fields": {
+            "title": "卵かけご飯",
+            "content": "ご飯の上に卵をかける",
+            "description": "",
+            "image": "",
+            "user": 1,
+            "created": "2021-04-14T15:28:09.465Z",
+            "modified": "2021-04-14T15:28:09.465Z"
+        }
+    }
+]
